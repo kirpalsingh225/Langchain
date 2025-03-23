@@ -20,7 +20,7 @@ prompt2 = PromptTemplate(
 
 parser = StrOutputParser()
 
-model = ChatGoogleGenerativeAI(model = 'gemini-2.0-flash', api_key="AIzaSyCuE7hhVc-h-fuim6iP5eVYHM_32FiZf98")
+model = ChatGoogleGenerativeAI(model = 'gemini-2.0-flash')
 
 
 chain = RunnableParallel(
